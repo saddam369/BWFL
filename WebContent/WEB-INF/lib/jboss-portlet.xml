@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE portlet-app PUBLIC 
+"-//JBoss Portal//DTD JBoss Portlet 2.6//EN"
+"http://www.jboss.org/portal/dtd/jboss-portlet_2_6.dtd">
+<portlet-app>
+	<portlet>
+		<portlet-name>PlanningMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>GmapPortlet</portlet-name>
+		<header-content></header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>PropertyTypeAndSubTypeDetailPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>FloorMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>PropertyEntryFormPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>LandUseMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>ArchitecturalPlanningMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>PaymentModeMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>PriorityMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>QuotaMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>RebateMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>RefundDeductionMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>ProposalEntryFormPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>ProposalDetailPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>PropertyNotificationEntryPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>MilestoneMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>EligibilityMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>PaymentSchedulePortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>ApplicationEntryPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>ChallanEntryFormPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>TransactionCodeEntryPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>PropertyWorkAllocationPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>DoubtClearCheckFormPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>SubQuotaMasterPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>LotteryDefinitionPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>PropertyBreakUpReportPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>LotteryAllotmentPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+
+	<portlet>
+		<portlet-name>BulkPropertyRequestPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>BulkAllotmentPortlet</portlet-name>
+		<header-content>
+			<link href="/css/style.css" rel="stylesheet"
+				type="text/css" />
+		</header-content>
+	</portlet>
+	<portlet>
+		<portlet-name>OptionLetterToCustomerPortlet</portlet-name>
+		<header-content><link href="/css/style.css" rel="stylesheet"
+				type="text/css" /></header-content>
+	</portlet>
+</portlet-app>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#jsf#ImportPermit.jsp"
+  PATH="/jsf/ImportPermit.jsp" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#ImportPermit.jsp:0" NAME="item"
+   PATH="/jsf/ImportPermit.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="go:#{importPermitAction.mappingPage}:#jsf#ImportChallanForPermitBWFL_FL2D.jsp"
+    NAME="output" PATH="/jsf/ImportChallanForPermitBWFL_FL2D.jsp"
+    TARGET="rules:#jsf#ImportChallanForPermitBWFL_FL2D.jsp"
+    TITLE="#{importPermitAction.mappingPage}:go" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#ImportChallanForPermitBWFL_FL2D.jsp"
+  PATH="/jsf/ImportChallanForPermitBWFL_FL2D.jsp" SHAPE="256,33,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#ImportChallanForPermitBWFL_FL2D.jsp:0"
+   NAME="item" PATH="/jsf/ImportChallanForPermitBWFL_FL2D.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="BWFL:#{importChallanForPermitBWFL_FL2DAction.navigationBack}:#jsf#ImportPermit.jsp"
+    NAME="output" PATH="/jsf/ImportPermit.jsp"
+    TARGET="rules:#jsf#ImportPermit.jsp"
+    TITLE="#{importChallanForPermitBWFL_FL2DAction.navigationBack}:BWFL" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="FL2D:#{importChallanForPermitBWFL_FL2DAction.navigationBack}:#jsf#ImportPermitFL2D.jsp"
+    NAME="output1" PATH="/jsf/ImportPermitFL2D.jsp"
+    TARGET="rules:#jsf#ImportPermitFL2D.jsp"
+    TITLE="#{importChallanForPermitBWFL_FL2DAction.navigationBack}:FL2D" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#ImportPermitFL2D.jsp"
+  PATH="/jsf/ImportPermitFL2D.jsp" SHAPE="480,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#ImportPermitFL2D.jsp:0" NAME="item"
+   PATH="/jsf/ImportPermitFL2D.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="go:#{importPermitFL2DAction.mappingPage}:#jsf#ImportChallanForPermitBWFL_FL2D.jsp"
+    NAME="output" PATH="/jsf/ImportChallanForPermitBWFL_FL2D.jsp"
+    TARGET="rules:#jsf#ImportChallanForPermitBWFL_FL2D.jsp"
+    TITLE="#{importPermitFL2DAction.mappingPage}:go" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#ImportPermit_20_21.jsp"
+  PATH="/jsf/ImportPermit_20_21.jsp" SHAPE="32,161,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#ImportPermit_20_21.jsp:0" NAME="item"
+   PATH="/jsf/ImportPermit_20_21.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="go:#{importPermitAction_20_21.mappingPage}:#jsf#ImportChallanForPermitBWFL_FL2D_20_21.jsp"
+    NAME="output" PATH="/jsf/ImportChallanForPermitBWFL_FL2D_20_21.jsp"
+    TARGET="rules:#jsf#ImportChallanForPermitBWFL_FL2D_20_21.jsp"
+    TITLE="#{importPermitAction_20_21.mappingPage}:go" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM
+  NAME="rules:#jsf#ImportChallanForPermitBWFL_FL2D_20_21.jsp"
+  PATH="/jsf/ImportChallanForPermitBWFL_FL2D_20_21.jsp"
+  SHAPE="240,177,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM
+   ID="rules:#jsf#ImportChallanForPermitBWFL_FL2D_20_21.jsp:0"
+   NAME="item" PATH="/jsf/ImportChallanForPermitBWFL_FL2D_20_21.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="BWFL:#{importChallanForPermitBWFL_FL2DAction_20_21.navigationBack}:#jsf#ImportPermit_20_21.jsp"
+    NAME="output" PATH="/jsf/ImportPermit_20_21.jsp"
+    TARGET="rules:#jsf#ImportPermit_20_21.jsp"
+    TITLE="#{importChallanForPermitBWFL_FL2DAction_20_21.navigationBack}:BWFL" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#Import_Permit_FL2D_20_21.jsp"
+  PATH="/jsf/Import_Permit_FL2D_20_21.jsp" SHAPE="464,273,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#Import_Permit_FL2D_20_21.jsp:0"
+   NAME="item" PATH="/jsf/Import_Permit_FL2D_20_21.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="go:#{import_Permit_FL2D_20_21Action.mappingPage}:#jsf#ImportChallanForPermit_FL2D_20_21.jsp"
+    NAME="output" PATH="/jsf/ImportChallanForPermit_FL2D_20_21.jsp"
+    TARGET="rules:#jsf#ImportChallanForPermit_FL2D_20_21.jsp"
+    TITLE="#{import_Permit_FL2D_20_21Action.mappingPage}:go" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#ImportChallanForPermit_FL2D_20_21.jsp"
+  PATH="/jsf/ImportChallanForPermit_FL2D_20_21.jsp" SHAPE="256,289,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#ImportChallanForPermit_FL2D_20_21.jsp:0"
+   NAME="item" PATH="/jsf/ImportChallanForPermit_FL2D_20_21.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="FL2D:#{importChallanForPermitFL2D_20_21Action.navigationBack}:#jsf#Import_Permit_FL2D_20_21.jsp"
+    NAME="output" PATH="/jsf/Import_Permit_FL2D_20_21.jsp"
+    TARGET="rules:#jsf#Import_Permit_FL2D_20_21.jsp"
+    TITLE="#{importChallanForPermitFL2D_20_21Action.navigationBack}:FL2D" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PendingPermitFL2D_20_21.jsp"
+  PATH="/jsf/PendingPermitFL2D_20_21.jsp" SHAPE="32,273,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PendingPermitFL2D_20_21.jsp:0"
+   NAME="item" PATH="/jsf/PendingPermitFL2D_20_21.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="go:#{pendingPermitFL2D_20_21Action.mappingPage}:#jsf#ImportChallanForPermit_FL2D_20_21.jsp"
+    NAME="output" PATH="/jsf/ImportChallanForPermit_FL2D_20_21.jsp"
+    TARGET="rules:#jsf#ImportChallanForPermit_FL2D_20_21.jsp"
+    TITLE="#{pendingPermitFL2D_20_21Action.mappingPage}:go" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#jsf#PendingPermit.jsp"
+  PATH="/jsf/PendingPermit.jsp" SHAPE="32,385,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#jsf#PendingPermit.jsp:0" NAME="item"
+   PATH="/jsf/PendingPermit.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="go:#{importPermitAction.mappingPage}:#jsf#ImportChallanForPermitBWFL_FL2D.jsp"
+    NAME="output" PATH="/jsf/ImportChallanForPermitBWFL_FL2D.jsp"
+    TARGET="rules:#jsf#ImportChallanForPermitBWFL_FL2D.jsp"
+    TITLE="#{importPermitAction.mappingPage}:go" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+</PROCESS>
