@@ -28,7 +28,7 @@
 							<TD><h:inputHidden
 									value="#{adjustmentGatepassAction.hidden}"></h:inputHidden>
 								<h5>
-									<h:outputText value="Adjustment Of Offline Gatepass"
+									<h:outputText value="Adjustment Of Offline gatepass New"
 										style="FONT-STYLE: italic; COLOR: #0000a0; FONT-WEIGHT: bold; FONT-SIZE: x-large;"></h:outputText>
 								</h5></TD>
 						</TR>
